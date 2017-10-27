@@ -3,6 +3,14 @@ img .typewriter{
   float: right;
 }
 
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid black;
+}
 
 .jumbotron {
   background: transparent;
@@ -14,6 +22,7 @@ img .typewriter{
 
 
 div .card{
+  border-bottom: none;
   border-color: black;
   display: none;
   position: absolute;
