@@ -24,8 +24,9 @@ img .typewriter{
 div .card{
   border-bottom: none;
   border-color: black;
+  margin: 0;
+  padding: 0;
   display: none;
-  position: absolute;
 }
 
 div .results {
