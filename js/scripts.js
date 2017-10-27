@@ -1,34 +1,29 @@
 //back-end//
 
-//range of numbers, add commas or spaces later!//
-//WORKS DO NOT TOUCH//
+//range of numbers//
 var countUp = function(input){
   var answer = [];
   for(var i = 1; i < input; i++) {
-    answer += i;
+    answer += i + ", ";
   }
-  return answer + input;
+  return beepBoop(answer + input);
 }
 
-//Numbers that contain a 1 are replaced with "Boop!"//
+
+//replaces 0's and 1's, needs to replace entire number.//
 var beepBoop = function(input){
-
-  return input.replace(/[0]/g, "Boop!")
-
+  return input.replace(/[1]/g, "Boop!").replace(/[0]/g, "Beep!");
 }
 
+//4. Numbers _divisible by 3_ are replaced with "I'm sorry, Dave. I'm afraid I can't do that."//
+ var divide = function(input){
+   if(input % 3){
+     return "I'm sorry, Dave. I'm afraid I can't do that.";
+   }else{
+     return "TEST";
+   }
+ }
 
-//Numbers that contain a 0 are replaced with "Beep!"//
-// var beepFunc = function(input){
-//   if (input.includes(0)){
-//     return input.replace(/[0+]/g, "Beep!")
-//   }
-// }
-
-//function to run all functions//
-// var resultsFunc = function(input){
-//   return boopFunc(input)
-// }
 
 //front-end//
 
@@ -37,6 +32,6 @@ $(document).ready(function(){
 
     event.preventDefault();
     var input = $('#input').val();
-    $('#results').text(beepBoop(input));
+    $('#results').text(divide(input));
   });
 });
