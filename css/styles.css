@@ -1,8 +1,8 @@
-.background {
-  background-image: url(../img/typewriter.jpg) no-repeat center center;
-  position: fixed;
-
+img .typewriter{
+  display: inline-block;
+  float: right;
 }
+
 
 .jumbotron {
   background: transparent;
@@ -16,6 +16,7 @@
 div .card{
   border-color: black;
   display: none;
+  position: absolute;
 }
 
 div .results {
