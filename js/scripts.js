@@ -1,7 +1,7 @@
 //back-end//
 
 //range of numbers, add commas or spaces later!//
-//join is not working?//
+//WORKS DO NOT TOUCH//
 var countUp = function(input){
   var answer = [];
   for(var i = 1; i < input; i++) {
@@ -11,9 +11,24 @@ var countUp = function(input){
 }
 
 //Numbers that contain a 1 are replaced with "Boop!"//
-var boop = function(input){
-  return input.replace(/[1]/g, "Boop!");
+var beepBoop = function(input){
+
+  return input.replace(/[0]/g, "Boop!")
+
 }
+
+
+//Numbers that contain a 0 are replaced with "Beep!"//
+// var beepFunc = function(input){
+//   if (input.includes(0)){
+//     return input.replace(/[0+]/g, "Beep!")
+//   }
+// }
+
+//function to run all functions//
+// var resultsFunc = function(input){
+//   return boopFunc(input)
+// }
 
 //front-end//
 
@@ -22,6 +37,6 @@ $(document).ready(function(){
 
     event.preventDefault();
     var input = $('#input').val();
-    $('#results').text(boop(input));
+    $('#results').text(beepBoop(input));
   });
 });
