@@ -6,11 +6,14 @@ var countUp = function(input){
   var answer = [];
   for(var i = 1; i < input; i++) {
     answer += i;
-    answer.join();
   }
   return answer + input;
 }
 
+//Numbers that contain a 1 are replaced with "Boop!"//
+var boop = function(input){
+  return input.replace(/[1]/g, "Boop!");
+}
 
 //front-end//
 
@@ -19,6 +22,6 @@ $(document).ready(function(){
 
     event.preventDefault();
     var input = $('#input').val();
-    $('#results').text(countUp(input));
+    $('#results').text(boop(input));
   });
 });
