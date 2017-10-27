@@ -2,14 +2,14 @@
 
 #### _A web application , October 27, 2017_
 
-#### By _**Amy Churchwell**_
+#### By Amy Churchwell
 
 ## Description
 
 A web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with a few exceptions.
 
 ## Specifications
-###Starting with most simple.
+### Starting with most simple.
 
 #### 1. It can count up to the provided number.
 
