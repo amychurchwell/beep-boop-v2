@@ -33,7 +33,7 @@ $(document).ready(function(){
     $('#results').text(test(input));
 
     if (input >= 100){
-      $('#length').show();
+      $('#length').slideDown();
     }else{
       $('#length').hide();
     }

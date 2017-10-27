@@ -1,6 +1,6 @@
 # _Beep, Boop!_
 
-#### _A web application , October 27, 2017_
+#### _A web application, October 27, 2017_
 
 #### By Amy Churchwell
 
@@ -36,11 +36,13 @@ A web application that takes a number from a user and returns a range of numbers
 #### GITHUB PAGES REMEMBER
 * Open web browser and go to the [GitHub Pages][1].
 
-[1]: https://amychurchwell.github.io/beep-boop/ "GitHub Pages"
+[1]: https://amychurchwell.github.io/beep-boop/index.html "GitHub Pages"
 
 ## Known Bugs
 
-None at this time.
+Web application will not look correct on smaller screens.
+I believe that it will look decent on larger screens.
+_This was built on a laptop._
 
 ## Support and contact details
 
