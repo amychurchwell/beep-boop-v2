@@ -32,7 +32,7 @@ $(document).ready(function(){
     $('.card').slideDown();
     $('#results').text(test(input));
 
-    if (input >= 100){
+    if (input >= 80){
       $('#length').slideDown();
     }else{
       $('#length').hide();

@@ -7,6 +7,15 @@ img .typewriter{
   float: right;
 }
 
+button {
+  background-color: black;
+  color: #fff;
+}
+
+form {
+  margin: 10px;
+}
+
 .arrow-down {
   width: 0;
   height: 0;
