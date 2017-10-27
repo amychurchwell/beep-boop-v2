@@ -1,38 +1,33 @@
-// back-end magic
+// DONE 1. It can count up to the provided number.
+// DONE 2. Numbers divisible by 3 are replaced with 'I'm sorry, Dave. I'm afraid I can't do that.'
+// 3. Numbers that contain a 1 are replaced with "Boop!"
+// 4. Numbers that contain a 0 are replaced with "Beep!"
 
-
-// var countUp = function(input){
-//   var answer = [];
-//   for(var i = 1; i < input; i++) {
-//     answer += i + ", ";
-//   }
-//   return beepBoop(answer + input);
-// }
-
-// 1. It can count up to the provided number.
-// 2. Numbers that *contain* a 1 are replaced with "Boop!"
-// 3. Numbers that *contain* a 0 are replaced with "Beep!"
-// 4. Numbers _divisible by 3_ are replaced with 'I'm sorry, Dave. I'm afraid I can't do that.'
 
 var beepBoop = function(input){
   return input.replace(/[1]/g, "Boop!").replace(/[0]/g, "Beep!");
 }
 
  function test(input) {
+
+   var results = [];
    for (var i = 1; i <= input; i++) {
+     
      if (i % 3 == 0 ) {
-       console.log("DAVE");
+       results.push("I'm sorry, Dave. I'm afraid I can't do that.");
 
-     } else if (i == /[1]g/) {
-       console.log("Boop!")
+     } else if (i.toString().match(/0/)) {
+       results.push("Beep!")
 
-     } else if (i == 0) {
-       console.log("Beep!")
-     }
-     else {
-       console.log(i);
+     } else if (i.toString().match(/1/)) {
+       results.push("Boop!")
+
+     } else {
+       results.push(i);
      }
    }
+   console.log(results);
+   return results;
  }
 
 
@@ -40,9 +35,9 @@ var beepBoop = function(input){
 
 $(document).ready(function(){
   $('#form').submit(function(event){
-
     event.preventDefault();
     var input = parseInt($('#input').val());
+
     $('#results').text(test(input));
   });
 });
