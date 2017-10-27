@@ -1,4 +1,17 @@
-div .jumbotron{
-  text-align: center;
+.block1 {
+  color: black;
+  background-color: #fee01e;
 
+}
+
+.block2 {
+  display: none;
+  color: black;
+  background-color: #fff;
+
+}
+
+
+div .results{
+  text-align: center;
 }

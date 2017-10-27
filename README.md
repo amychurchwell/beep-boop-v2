@@ -36,7 +36,7 @@ A web application that takes a number from a user and returns a range of numbers
 #### GITHUB PAGES REMEMBER
 * Open web browser and go to the [GitHub Pages][1].
 
-[1]: https://githubpage.io "GitHub Pages"
+[1]: https://amychurchwell.github.io/beep-boop/ "GitHub Pages"
 
 ## Known Bugs
 

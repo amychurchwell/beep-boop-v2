@@ -12,7 +12,7 @@ var beepBoop = function(input){
 
    var results = [];
    for (var i = 1; i <= input; i++) {
-     
+
      if (i % 3 == 0 ) {
        results.push("I'm sorry, Dave. I'm afraid I can't do that.");
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
   $('#form').submit(function(event){
     event.preventDefault();
     var input = parseInt($('#input').val());
-
+    $('.block2').show();
     $('#results').text(test(input));
   });
 });
