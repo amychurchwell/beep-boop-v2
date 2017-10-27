@@ -31,5 +31,11 @@ $(document).ready(function(){
     var input = parseInt($('#input').val());
     $('.card').slideDown();
     $('#results').text(test(input));
+
+    if (input >= 100){
+      $('#length').show();
+    }else{
+      $('#length').hide();
+    }
   });
 });

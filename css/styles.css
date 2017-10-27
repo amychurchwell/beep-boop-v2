@@ -1,3 +1,7 @@
+div #length{
+  display: none;
+}
+
 img .typewriter{
   display: inline-block;
   float: right;
@@ -20,6 +24,10 @@ img .typewriter{
   color: black;
 }
 
+body{
+  font-family: monospace;
+}
+
 
 div .card{
   border-bottom: none;
@@ -27,6 +35,8 @@ div .card{
   margin: 0;
   padding: 0;
   display: none;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 div .results {
@@ -34,9 +44,5 @@ div .results {
   color: black;
   border: 1px;
   border-color: black;
-}
-
-
-div .results{
   text-align: center;
 }
