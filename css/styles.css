@@ -1,14 +1,28 @@
-.block1 {
-  color: black;
-  background-color: #fee01e;
+.background {
+  background-image: url(../img/typewriter.jpg) no-repeat center center;
+  position: fixed;
 
 }
 
-.block2 {
-  display: none;
-  color: black;
-  background-color: #fff;
+.jumbotron {
+  background: transparent;
+}
 
+.block1 {
+  color: black;
+}
+
+
+div .card{
+  border-color: black;
+  display: none;
+}
+
+div .results {
+  /*display: none;*/
+  color: black;
+  border: 1px;
+  border-color: black;
 }
 
 

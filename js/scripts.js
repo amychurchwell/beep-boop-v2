@@ -3,11 +3,6 @@
 // 3. Numbers that contain a 1 are replaced with "Boop!"
 // 4. Numbers that contain a 0 are replaced with "Beep!"
 
-
-var beepBoop = function(input){
-  return input.replace(/[1]/g, "Boop!").replace(/[0]/g, "Beep!");
-}
-
  function test(input) {
 
    var results = [];
@@ -15,7 +10,6 @@ var beepBoop = function(input){
 
      if (i % 3 == 0 ) {
        results.push("I'm sorry, Dave. I'm afraid I can't do that.");
-
      } else if (i.toString().match(/0/)) {
        results.push("Beep!")
 
@@ -26,10 +20,8 @@ var beepBoop = function(input){
        results.push(i);
      }
    }
-   console.log(results);
    return results;
  }
-
 
 // front-end
 
@@ -37,7 +29,7 @@ $(document).ready(function(){
   $('#form').submit(function(event){
     event.preventDefault();
     var input = parseInt($('#input').val());
-    $('.block2').show();
+    $('.card').slideDown();
     $('#results').text(test(input));
   });
 });
