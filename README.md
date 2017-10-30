@@ -10,26 +10,26 @@ A web application that takes a number from a user and returns a range of numbers
 
 ## Specifications
 
-#### 1. It can count up to the provided number.
+#### 1. Numbers that *contain* a 0 are replaced with "Beep!"
 
-* Example Input: [2]
-* Example Output: ["Boop!", 2]
+* Example Input: [0]
+* Example Output: ["Beep!"]
 
 #### 2. Numbers that *contain* a 1 are replaced with "Boop!"
 
+* Example Input: [1]
+* Example Output: ["Boop!"]
+
+
+#### 3. It can count up to the provided number.
+
 * Example Input: [2]
 * Example Output: ["Boop!", 2]
 
-#### 3. Numbers _divisible by 3_ are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+#### 4. Numbers _divisible by 3_ are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 
 * Example Input: [3]
 * Example Input: ["Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that"]
-
-#### 4. Numbers that *contain* a 0 are replaced with "Beep!"
-
-* Example Input: [10]
-* Example Output: ["Boop!", 2, "I'm sorry, Dave. I'm afraid I can't do that", 4, 5, "I'm sorry, Dave. I'm afraid I can't do that", 7, 8, "I'm sorry, Dave. I'm afraid I can't do that", "Beep!"]
-
 
 ## Setup/Installation Requirements
 
