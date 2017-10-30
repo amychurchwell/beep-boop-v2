@@ -34,9 +34,9 @@ A web application that takes a number from a user and returns a range of numbers
 ## Setup/Installation Requirements
 
 #### GITHUB PAGES REMEMBER
-* Open web browser and go to the [GitHub Pages][1].
+* Open web browser and go to the [GitHub Pages][4].
 
-[1]: https://amychurchwell.github.io/beep-boop/index.html "GitHub Pages"
+[4]: https://amychurchwell.github.io/beep-boop/index.html "GitHub Pages"
 
 ## Known Bugs
 
