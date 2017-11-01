@@ -12,28 +12,28 @@ A web application that takes a number from a user and returns a range of numbers
 
 #### 1. Numbers that *contain* a 0 are replaced with "Beep!"
 
-* Example Input: [0]
+* Example Input: 0
 * Example Output: ["Beep!"]
 
 #### 2. Numbers that *contain* a 1 are replaced with "Boop!"
 
-* Example Input: [1]
+* Example Input: 1
 * Example Output: ["Boop!"]
 
 
 #### 3. It can count up to the provided number.
 
-* Example Input: [2]
+* Example Input: 2
 * Example Output: ["Boop!", 2]
 
 #### 4. Numbers _divisible by 3_ are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 
-* Example Input: [3]
+* Example Input: 3
 * Example Input: ["Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that"]
 
 ## Setup/Installation Requirements
 
-#### GITHUB PAGES REMEMBER
+#### GITHUB PAGES
 * Open web browser and go to the [GitHub Pages][4].
 
 [4]: https://amychurchwell.github.io/beep-boop/index.html "GitHub Pages"
