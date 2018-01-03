@@ -1,11 +1,11 @@
-var Triangle = require('./../js/beep-boop.js').triangleModule;
-describe('Triangle', function() {
 
-  it('should test whether a Triangle has three sides', function() {
-    var triangle = new Triangle(3,4,5)
-    expect(triangle.side1).toEqual(3)
-    expect(triangle.side2).toEqual(4)
-    expect(triangle.side3).not.toEqual(6)
+var Number1 = require('./../js/beep-boop.js').numberModule;
+describe('Number', function() {
+
+  it('should test whether the number contains 0', function() {
+    var number1 = new Number1(10)
+    console.log(number1);
+    expect(number1.checkType()).toEqual(true);
   });
 
 });

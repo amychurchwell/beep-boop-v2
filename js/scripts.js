@@ -2,11 +2,13 @@
 // DONE 2. Numbers divisible by 3 are replaced with 'I'm sorry, Dave. I'm afraid I can't do that.'
 // 3. Numbers that contain a 1 are replaced with "Boop!"
 // 4. Numbers that contain a 0 are replaced with "Beep!"
+function Shit(number) {
+  this.number1 = number;
+}
 
- function test(input) {
-
+ Shit.prototype.test = function() {
    var results = [];
-   for (var i = 1; i <= input; i++) {
+   for (var i = 1; i <= this.number1; i++) {
 
      if (i % 3 == 0 ) {
        results.push("I'm sorry, Dave. I'm afraid I can't do that.");
@@ -23,19 +25,4 @@
    return results;
  }
 
-// front-end
-
-$(document).ready(function(){
-  $('#form').submit(function(event){
-    event.preventDefault();
-    var input = parseInt($('#input').val());
-    $('.card').slideDown();
-    $('#results').text(test(input));
-
-    if (input >= 80){
-      $('#length').slideDown();
-    }else{
-      $('#length').hide();
-    }
-  });
-});
+exports.shitModule = Shit;
