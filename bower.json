@@ -1,0 +1,19 @@
+{
+  "name": "beep-boop",
+  "description": "#### _A web application, October 27, 2017_",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/amychurchwell/beep-boop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.20.1"
+  }
+}

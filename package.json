@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/amychurchwell/beep-boop#readme",
   "devDependencies": {
+    "bower-files": "^4.0.0",
+    "browser-sync": "^2.23.2",
     "browserify": "^14.5.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "jasmine": "^2.8.0",
