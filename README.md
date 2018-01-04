@@ -2,7 +2,7 @@
 
 #### _An update of an intro project, January 3, 2017._
 
-#### By Amy Churchwell and Griffon
+#### By Amy Churchwell and Griffin Longtin
 
 ## Description
 
@@ -35,15 +35,3 @@ A web application that takes a number from a user and returns a range of numbers
 ## Known Bugs
 
 Web application is not responsive.
-
-## Support and contact details
-
-_Please do not hesitate to contact me at amy.churchwell@gmail.com with any feedback or questions._
-
-## Technologies Used
-
-_JavaScript_
-
-### License
-
-Copyright (c) 2017 **_Amy Churchwell, Student at Epicodus._**
